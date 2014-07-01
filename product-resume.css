@@ -23,6 +23,20 @@ body {
     padding-bottom: 20px;
 }
 
+.img-box {
+    position: relative;
+    border-radius: 50px;
+    margin: auto;
+    /*margin-top: 15px;*/
+    /*margin-bottom: 15px;*/
+}
+
+.section-header{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 /* Overriding bootstrap*/
 .navbar {
     margin-bottom: 0;
