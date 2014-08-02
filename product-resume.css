@@ -26,15 +26,55 @@ body {
 .img-box {
     position: relative;
     border-radius: 50px;
-    margin: auto;
-    /*margin-top: 15px;*/
-    /*margin-bottom: 15px;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.center-element{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-header{
     width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.projects{
+    /*position: relative;*/
+    margin: 20px auto;
+
+}
+
+.project{
+    /*position: relative;*/
+    min-width: 150px;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.project a {
+    display: block;
+}
+
+.project-title{
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.project-image{
+    /*position: absolute;*/
+    border-radius: 10px;
+}
+
+
+.section-header-font{
+    color: #ffffff;
+    font-weight: bolder;
 }
 
 /* Overriding bootstrap*/
