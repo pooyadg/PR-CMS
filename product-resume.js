@@ -12,10 +12,23 @@ $(function () {
     });
 
 
-    var currentHeader = $(this).find(".navbar");
-    if (currentHeader.length == 0)
-        return;
-    makeSticky($(this), currentHeader);
+    $('.project').hover(
+        function(){
+            $(this).find('.project-overlay').slideDown(250); //.fadeIn(250)
+        },
+        function(){
+            $(this).find('.project-overlay').slideUp(250); //.fadeOut(205)
+        }
+    );
+
+    $(".navbar").click(function () {
+        $(this).parent().find(".project").slideToggle(200);
+//        $(".project").slideToggle(200);
+    });
+//    var currentHeader = $(this).find(".navbar");
+//    if (currentHeader.length == 0)
+//        return;
+//    makeSticky($(this), currentHeader);
 
 
 });
