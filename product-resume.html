@@ -28,7 +28,7 @@
 <body>
 
 
-<nav class="navbar navbar-default my-logo-bar" role="navigation">
+<nav class="navbar navbar-default my-logo-bar">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -36,8 +36,8 @@
         </div>
     </div>
 </nav>
-
-<nav class="navbar navbar-default" role="navigation">
+<div id="stickyplaceholder"></div>
+<nav class="navbar navbar-default"  id="stickybar">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -60,7 +60,7 @@
                 <li><a href="#">|</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
+                    <ul class="dropdown-menu">
                         <li><a href="#">Action</a></li>
                         <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>
@@ -70,7 +70,6 @@
                         <li><a href="#">One more separated link</a></li>
                     </ul>
                 </li>
-            </ul>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -170,12 +169,16 @@
                 <div class="project-overlay">
                     <div class="container-fluid pager">
                         <div class="row">
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right" src="media/icons/spec.png" width="40%"></div>
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left" src="media/icons/gallery.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right"
+                                                                src="media/icons/spec.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left"
+                                                                src="media/icons/gallery.png" width="40%"></div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right" src="media/icons/google_maps.png" width="40%"></div>
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left" src="media/icons/spec2.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right"
+                                                                src="media/icons/google_maps.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left"
+                                                                src="media/icons/spec2.png" width="40%"></div>
                         </div>
                     </div>
 
@@ -189,32 +192,16 @@
                 <div class="project-overlay">
                     <div class="container-fluid pager">
                         <div class="row">
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right" src="media/icons/spec.png" width="40%"></div>
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left" src="media/icons/gallery.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right"
+                                                                src="media/icons/spec.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left"
+                                                                src="media/icons/gallery.png" width="40%"></div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right" src="media/icons/google_maps.png" width="40%"></div>
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left" src="media/icons/spec2.png" width="40%"></div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <a href="#"><img class="img-responsive project-image" src="media/service3.png"> </a>
-                <a href="#" class="project-title">بهارستان</a>
-            </div>
-        </div>
-        <div class="col-sm-3 pager">
-            <div class="project">
-                <div class="project-overlay">
-                    <div class="container-fluid pager">
-                        <div class="row">
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right" src="media/icons/spec.png" width="40%"></div>
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left" src="media/icons/gallery.png" width="40%"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right" src="media/icons/google_maps.png" width="40%"></div>
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left" src="media/icons/spec2.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right"
+                                                                src="media/icons/google_maps.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left"
+                                                                src="media/icons/spec2.png" width="40%"></div>
                         </div>
                     </div>
 
@@ -229,12 +216,40 @@
                 <div class="project-overlay">
                     <div class="container-fluid pager">
                         <div class="row">
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right" src="media/icons/spec.png" width="40%"></div>
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left" src="media/icons/gallery.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right"
+                                                                src="media/icons/spec.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left"
+                                                                src="media/icons/gallery.png" width="40%"></div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right" src="media/icons/google_maps.png" width="40%"></div>
-                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left" src="media/icons/spec2.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right"
+                                                                src="media/icons/google_maps.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left"
+                                                                src="media/icons/spec2.png" width="40%"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="#"><img class="img-responsive project-image" src="media/service3.png"> </a>
+                <a href="#" class="project-title">بهارستان</a>
+            </div>
+        </div>
+        <div class="col-sm-3 pager">
+            <div class="project">
+                <div class="project-overlay">
+                    <div class="container-fluid pager">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right"
+                                                                src="media/icons/spec.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left"
+                                                                src="media/icons/gallery.png" width="40%"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-right"
+                                                                src="media/icons/google_maps.png" width="40%"></div>
+                            <div class="col-xs-6 col-md-6"><img class="img-responsive pull-left"
+                                                                src="media/icons/spec2.png" width="40%"></div>
                         </div>
                     </div>
 

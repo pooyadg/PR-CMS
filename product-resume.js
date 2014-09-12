@@ -30,6 +30,30 @@ $(function () {
 
 });
 
+$(function(){
+    // Check the initial Poistion of the Sticky Header
+    var stickyElement = '#stickybar';
+    var stickyPlaceholder = '#stickyplaceholder';
+    var stickyHeaderTop = $(stickyElement).offset().top;
+    var elementHeight = $(stickyElement).css('height');
+
+
+    $(window).scroll(function(){
+        if( $(window).scrollTop() > stickyHeaderTop ) {
+            $(stickyElement).addClass('navbar-fixed-top');
+//            $(stickyElement).css({position: 'fixed'});
+            $(stickyPlaceholder).css({height: elementHeight});
+
+//            $(stickyElement).css('display', 'block');
+        } else {
+            $(stickyPlaceholder).css({height: 0});
+//            $(stickyElement).css({position: 'static'});
+//            $(stickyElement).css('display', 'none');
+            $(stickyElement).removeClass('navbar-fixed-top');
+        }
+    });
+});
+
 
 function makeSticky(container, element) {
     var scrollTop = $(document).scrollTop();
