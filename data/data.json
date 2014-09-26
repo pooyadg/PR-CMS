@@ -1,0 +1,96 @@
+{"homeCarousel": [
+    {
+        "name": "media/home-carousel/slide1.jpg",
+        "index": 0,
+        "active": true
+    },
+    {
+        "name": "media/home-carousel/slide2.jpg",
+        "index": 1,
+        "active": false
+    },
+    {
+        "name": "media/home-carousel/slide3.jpg",
+        "index": 2,
+        "active": false
+    },
+    {
+        "name": "media/home-carousel/slide4.jpg",
+        "index": 3,
+        "active": false
+    }
+], "projectSections": [
+    {
+        "caption": "first level projects",
+        "projects": [
+            {
+                "name": "kirekhar1",
+                "address": "a",
+                "thumbnail": "",
+                "imageGallery": [
+                    {
+                        "address": "a",
+                        "caption": "a"
+                    },
+                    {
+                        "address": "",
+                        "caption": ""
+                    }
+                ]
+            },
+            {
+                "name": "b",
+                "address": "b",
+                "thumbnail": "b",
+                "imageGallery": [
+                    {
+                        "address": "b",
+                        "caption": "b"
+                    },
+                    {
+                        "address": "b",
+                        "caption": "b"
+                    }
+                ]
+            }
+
+        ]
+    },
+    {
+        "caption": "second level projects",
+        "projects": [
+            {
+                "name": "c",
+                "address": "c",
+                "thumbnail": "c",
+                "imageGallery": [
+                    {
+                        "address": "c",
+                        "caption": "c"
+                    },
+                    {
+                        "address": "c",
+                        "caption": "c"
+                    }
+                ]
+            },
+            {
+                "name": "d",
+                "address": "d",
+                "thumbnail": "d",
+                "imageGallery": [
+                    {
+                        "address": "d",
+                        "caption": "d"
+                    },
+                    {
+                        "address": "d",
+                        "caption": "d"
+                    }
+                ]
+            }
+
+        ]
+    }
+]
+}
