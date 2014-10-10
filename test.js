@@ -11,30 +11,23 @@ if (typeof $ == 'undefined') {
 $(function () {
     loadImages();
 
-    $(window).scroll(function () {
-        $('.sticky-bar').each(function () {
-            var anchorPoint=$(this).closest(".sticky-bar-anchor").offset().top;
-            if ($(window).scrollTop() > anchorPoint) {
-                $(this).addClass('navbar-fixed-top');
-            } else {
-                $(this).removeClass('navbar-fixed-top');
-            }
-        });
-    });
+
+//    makeLightbox();
+//    $('body').click(function(){
+//        $('#demoLightbox').lightbox();
+//
+//    });
+//    prepareMap("map11");
 
 });
 
 
 function loadImages() {
-    var dir = "media/home-carousel/";
-    var fileextension = ".jpg";
-
 
     $.ajax({
         url: 'data/data.json',
         dataType: 'json',
         success: function (data) {
-//            console.log(data);
             fillSections(data)
 
         },
@@ -51,7 +44,6 @@ function loadImages() {
 
         var homeCarousel = makeHomeCarousel(data.homeCarousel);
 
-//        var sections = makeSection() + makeSection();
         var sections = makeSections(data.projectSections);
 
         $('body').append($(homeCarousel));
@@ -68,7 +60,20 @@ function loadImages() {
                 $(this).find('.project-overlay').slideUp(250); //.fadeOut(205)
             }
         );
+        $(window).scroll(function () {
+            $('.sticky-bar').each(function () {
+                var anchorPoint = $(this).closest(".sticky-bar-anchor").offset().top;
+                if ($(window).scrollTop() > anchorPoint) {
+                    $(this).addClass('navbar-fixed-top');
+                } else {
+                    $(this).removeClass('navbar-fixed-top');
+                }
+            });
+        });
 
+        $('.modal').on('click', function (e) {
+            prepareMap("map" + $(this).attr('id'));
+        })
     }
 
 
@@ -140,14 +145,14 @@ function makeSections(projectSections) {
 
     var sections = "";
     $.each(projectSections, function (i, section) {
-        console.log(section);
-        sections += makeSection(section);
+//        console.log(section);
+        sections += makeSection(section, i);
     });
 
     return sections;
 }
 
-function makeSection(sectionData) {
+function makeSection(sectionData, sectionIndex) {
     var sectionTemplateString =
         '<div class="sticky-bar-anchor">' +
         '   <div class="sticky-bar">' +
@@ -164,8 +169,7 @@ function makeSection(sectionData) {
     var projectsString = "";
 
     $.each(sectionData.projects, function (i, project) {
-        projectsString += makeProject(project);
-
+        projectsString += makeProject(project, "" + sectionIndex + "" + i + "");
     });
 
 
@@ -176,7 +180,7 @@ function makeSection(sectionData) {
 }
 
 
-function makeProject(projectData) {
+function makeProject(projectData, projectIndex) {
     var projectTemplateString =
         '<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 pager">' +
         '   <div class="project center-element">' +
@@ -200,7 +204,9 @@ function makeProject(projectData) {
         '       </div>' +
         '       <div class="row">' +
         '           <div class="col-xs-6 col-md-6">' +
-        '               <img class="img-responsive pull-right" src="media/icons/google_maps.png" width="40%">' +
+        '               <a href="javascript:;" data-toggle="modal" data-target="#' + projectIndex + '">' +
+        '                   <img class="img-responsive pull-right" src="media/icons/google_maps.png" width="40%">' +
+        '               </a>' +
         '           </div>' +
         '           <div class="col-xs-6 col-md-6">' +
         '               <img class="img-responsive pull-left" src="media/icons/spec2.png" width="40%">' +
@@ -208,6 +214,15 @@ function makeProject(projectData) {
         '       </div>' +
         '    </div>' +
         '</div>';
+
+    var mapId = "map" + projectIndex;
+    var googleMap = makeGoogleMap(projectData.coordinates, mapId);
+
+
+    var lightboxString = makeLightbox(projectIndex, "aks", googleMap, projectData.address);
+
+
+    $('body').append($(lightboxString));
 
 
     var projectOverlayString = projectOverlayTemplateString;
@@ -217,3 +232,61 @@ function makeProject(projectData) {
     return projectString;
 }
 
+
+function makeLightbox(modalId, title, contentElement, footerString) {
+
+    var lightboxString =
+        '<div class="modal fade" id="' + modalId + '" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">' +
+        '   <div class="modal-dialog">' +
+        '       <div class="modal-content">' +
+        '           <div class="modal-header">' +
+        '               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>' +
+        '               <h4 class="modal-title">' + title + '</h4>' +
+        '           </div>' +
+        '           <div class="modal-body">' +
+        contentElement +
+        '           </div>' +
+        '           <div class="modal-footer">' +
+        '               <span>' + footerString + '</span>' +
+        '           </div>' +
+        '        </div>' +
+        '    </div>' +
+        '</div>';
+
+
+    return lightboxString;
+
+}
+
+var projectPositionMap = {};
+function makeGoogleMap(projectPosition, mapId) {
+
+
+    var mapElementString = '<div id="' + mapId + '" style="width:500px;height:380px;"></div>';
+    projectPositionMap[mapId] = projectPosition;
+
+    return mapElementString;
+}
+
+function prepareMap(mapId) {
+    var marker;
+    var coordinates = projectPositionMap[mapId].split(',');
+    var myCenter = new google.maps.LatLng(coordinates[0], coordinates[1]);
+
+    var mapProp = {
+        center: myCenter,
+        zoom: 16,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map($('#' + mapId)[0], mapProp);
+
+
+    marker = new google.maps.Marker({
+        position: myCenter,
+        animation: google.maps.Animation.BOUNCE
+    });
+    marker.setMap(map);
+//    google.maps.event.trigger(map,'resize');
+
+}

@@ -21,7 +21,7 @@ $(function () {
             $(this).find('.project-overlay').slideDown(250); //.fadeIn(250)
         },
         function(){
-            $(this).find('.project-overlay').slideUp(250); //.fadeOut(205)
+//            $(this).find('.project-overlay').slideUp(250); //.fadeOut(205)
         }
     );
 
