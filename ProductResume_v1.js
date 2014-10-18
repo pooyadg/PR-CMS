@@ -9,7 +9,21 @@ if (typeof $ == 'undefined') {
 }
 
 $(function () {
+    //<!--[if lte IE 9]>
+    (function (f) {
+        window.setTimeout = f(window.setTimeout);
+        window.setInterval = f(window.setInterval);
+    })(function (f) {
+        return function (c, t) {
+            var a = [].slice.call(arguments, 2);
+            return f(function () {
+                c.apply(this, a)
+            }, t)
+        }
+    });
+//    <![endif]-->
     loadImages();
+
 
 });
 

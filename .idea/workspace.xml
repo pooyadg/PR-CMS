@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de573c0a-48bd-4362-8e46-de245e1878aa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/service1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/service2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/service3.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/service1.jpg" afterPath="$PROJECT_DIR$/media/service1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/home-carousel/slide2.jpg" afterPath="$PROJECT_DIR$/media/home-carousel/slide2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/home-carousel/slide4.jpg" afterPath="$PROJECT_DIR$/media/home-carousel/slide4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductResume_v1.js" afterPath="$PROJECT_DIR$/ProductResume_v1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PR-CMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,12 +61,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="data.json" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="data.json" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/data/data.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.43202764" vertical-offset="1155" max-vertical-offset="3294">
-                  <caret line="85" column="52" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="52" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="3294">
+                  <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProductResume_v1.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ProductResume_v1.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.24489796" vertical-offset="0" max-vertical-offset="7812">
+                  <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <marker date="1413635385019" expanded="true" signature="6705:6730" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -78,8 +87,8 @@
           <file leaf-file-name="ProductResume_v1.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ProductResume_v1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="666">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="666">
+                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -126,6 +135,8 @@
         <option value="$PROJECT_DIR$/testHTML.html" />
         <option value="$PROJECT_DIR$/data/data.json" />
         <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/ProductResume_v1.js" />
+        <option value="$PROJECT_DIR$/ProductResume_v1.html" />
       </list>
     </option>
   </component>
@@ -165,6 +176,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -228,7 +240,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -507,12 +518,13 @@
       <workItem from="1411909185065" duration="11708000" />
       <workItem from="1411925232447" duration="706000" />
       <workItem from="1412933341733" duration="40000" />
-      <workItem from="1413615142911" duration="838000" />
+      <workItem from="1413615142911" duration="2158000" />
+      <workItem from="1413635233135" duration="1385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78589000" />
+    <option name="totallyTimeSpent" value="81294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
@@ -566,6 +578,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/googleMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testHTML.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
@@ -921,10 +941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProductResume_v1.html">
+    <entry file="file://$PROJECT_DIR$/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="666">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1155" max-vertical-offset="3294">
+          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -937,11 +957,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data.json">
+    <entry file="file://$PROJECT_DIR$/ProductResume_v1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43202764" vertical-offset="1155" max-vertical-offset="3294">
-          <caret line="85" column="52" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="52" />
+        <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="666">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductResume_v1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24489796" vertical-offset="0" max-vertical-offset="7812">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1413635385019" expanded="true" signature="6705:6730" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
