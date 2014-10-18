@@ -1,4 +1,4 @@
-{"homeCarousel": [
+{"logo": "media/logo.png", "homeCarousel": [
     {
         "name": "media/home-carousel/slide1.jpg",
         "index": 0,
@@ -11,7 +11,7 @@
     },
     {
         "name": "media/home-carousel/slide3.jpg",
-        "index": 2,
+        "index": 1,
         "active": false
     },
     {
@@ -19,82 +19,160 @@
         "index": 3,
         "active": false
     }
-], "projectSections": [
-    {
-        "caption": "first level projects",
-        "projects": [
-            {
-                "name": "project1",
-                "address": "a",
-                "coordinates": "35.699682, 51.338336",
-                "thumbnail": "",
-                "imageGallery": [
-                    {
-                        "address": "a",
-                        "caption": "a"
-                    },
-                    {
-                        "address": "",
-                        "caption": ""
-                    }
-                ]
-            },
-            {
-                "name": "b",
-                "address": "b",
-                "coordinates": "35.677682, 51.336336",
-                "thumbnail": "b",
-                "imageGallery": [
-                    {
-                        "address": "b",
-                        "caption": "b"
-                    },
-                    {
-                        "address": "b",
-                        "caption": "b"
-                    }
-                ]
-            }
+], "projectSections": {
+    "caption": "پروژه ها",
+    "items": [
+        {
+            "caption": "پروزه های در دست انجام",
+            "projects": [
+                {
+                    "name": "بهارستان",
+                    "address": "تهران- ازگل",
+                    "coordinates": "35.699682, 51.338336",
+                    "thumbnail": "media/service1.jpg",
+                    "imageGallery": [
+                        {
+                            "address": "a",
+                            "caption": "a"
+                        },
+                        {
+                            "address": "",
+                            "caption": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "نگین تهران",
+                    "address": "تهران- قیطریه",
+                    "coordinates": "35.677682, 51.336336",
+                    "thumbnail": "media/service2.jpg",
+                    "imageGallery": [
+                        {
+                            "address": "b",
+                            "caption": "b"
+                        },
+                        {
+                            "address": "b",
+                            "caption": "b"
+                        }
+                    ]
+                }
 
-        ]
-    },
-    {
-        "caption": "second level projects",
-        "projects": [
-            {
-                "name": "c",
-                "address": "c",
-                "coordinates": "35.699382, 51.338136",
-                "thumbnail": "c",
-                "imageGallery": [
-                    {
-                        "address": "c",
-                        "caption": "c"
-                    },
-                    {
-                        "address": "c",
-                        "caption": "c"
-                    }
-                ]
-            },
-            {
-                "name": "d",
-                "address": "d",
-                "coordinates": "35.399682, 51.338346",
-                "thumbnail": "d",
-                "imageGallery": [
-                    {
-                        "address": "d",
-                        "caption": "d"
-                    },
-                    {
-                        "address": "d",
-                        "caption": "d"
-                    }
-                ]
-            }
+            ]
+        },
+        {
+            "caption": "پروژه های آتی",
+            "projects": [
+                {
+                    "name": "اطلس ایران",
+                    "address": "تهران - ولنجک",
+                    "coordinates": "35.699382, 51.338136",
+                    "thumbnail": "media/service3.jpg",
+                    "imageGallery": [
+                        {
+                            "address": "c",
+                            "caption": "c"
+                        },
+                        {
+                            "address": "c",
+                            "caption": "c"
+                        }
+                    ]
+                },
+                {
+                    "name": "فرزانگان",
+                    "address": "تهران - شهرک غرب",
+                    "coordinates": "35.399682, 51.338346",
+                    "thumbnail": "media/service4.jpg",
+                    "imageGallery": [
+                        {
+                            "address": "d",
+                            "caption": "d"
+                        },
+                        {
+                            "address": "d",
+                            "caption": "d"
+                        }
+                    ]
+                }
 
-        ]
-    }
-]
+            ]
+        },
+        {
+            "caption": "پروژه های انجام شده ۱",
+            "projects": [
+                {
+                    "name": "پزشکان",
+                    "address": "کرج - گلشهر",
+                    "coordinates": "35.699382, 51.338136",
+                    "thumbnail": "media/service2.jpg",
+                    "imageGallery": [
+                        {
+                            "address": "c",
+                            "caption": "c"
+                        },
+                        {
+                            "address": "c",
+                            "caption": "c"
+                        }
+                    ]
+                },
+                {
+                    "name": "بهاران",
+                    "address": "کرح - فردیس",
+                    "coordinates": "35.399682, 51.338346",
+                    "thumbnail": "media/service1.jpg",
+                    "imageGallery": [
+                        {
+                            "address": "d",
+                            "caption": "d"
+                        },
+                        {
+                            "address": "d",
+                            "caption": "d"
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "caption": "پروژه های انجام شده ۲",
+            "projects": [
+                {
+                    "name": "مروارید خزر",
+                    "address": "تهران- شهر ری",
+                    "coordinates": "35.699382, 51.338136",
+                    "thumbnail": "media/service1.jpg",
+                    "imageGallery": [
+                        {
+                            "address": "c",
+                            "caption": "c"
+                        },
+                        {
+                            "address": "c",
+                            "caption": "c"
+                        }
+                    ]
+                },
+                {
+                    "name": "سپهر",
+                    "address": "تهران - نوبنیاد",
+                    "coordinates": "35.399682, 51.338346",
+                    "thumbnail": "media/service3.jpg",
+                    "imageGallery": [
+                        {
+                            "address": "d",
+                            "caption": "d"
+                        },
+                        {
+                            "address": "d",
+                            "caption": "d"
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ]}
 }

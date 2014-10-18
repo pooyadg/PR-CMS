@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de573c0a-48bd-4362-8e46-de245e1878aa" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/slide4.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/home-carousel/slide1.jpg" afterPath="$PROJECT_DIR$/media/home-carousel/slide1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/home-carousel/slide2.jpg" afterPath="$PROJECT_DIR$/media/home-carousel/slide2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/home-carousel/slide3.jpg" afterPath="$PROJECT_DIR$/media/home-carousel/slide3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/home-carousel/slide4.jpg" afterPath="$PROJECT_DIR$/media/home-carousel/slide4.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/data.json" afterPath="$PROJECT_DIR$/data/data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-resume.html" afterPath="$PROJECT_DIR$/product-resume.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-resume.js" afterPath="$PROJECT_DIR$/product-resume.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.js" afterPath="$PROJECT_DIR$/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testHTML.html" afterPath="$PROJECT_DIR$/testHTML.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-resume.css" afterPath="$PROJECT_DIR$/product-resume.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PR-CMS.iws" />
@@ -38,7 +43,7 @@
           <file leaf-file-name="testHTML.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/testHTML.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.592592" vertical-offset="155" max-vertical-offset="1044">
+                <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="1044">
                   <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
                   <folding />
                 </state>
@@ -48,8 +53,8 @@
           <file leaf-file-name="product-resume.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/product-resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="2430">
-                  <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="293" max-vertical-offset="2682">
+                  <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -60,18 +65,26 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="4824" max-vertical-offset="5364">
                   <caret line="268" column="1" selection-start-line="268" selection-start-column="1" selection-end-line="268" selection-end-column="1" />
-                  <folding>
-                    <marker date="1411924473757" expanded="false" signature="1917:1942" placeholder="..." />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="data.json" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="data.json" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/data/data.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.40184757" vertical-offset="624" max-vertical-offset="1890">
-                  <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+                <state vertical-scroll-proportion="-4.888889" vertical-offset="624" max-vertical-offset="3294">
+                  <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProductResume_v1.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ProductResume_v1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.29032257" vertical-offset="0" max-vertical-offset="868">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -84,7 +97,7 @@
           <file leaf-file-name="googleMap.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/googleMap.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.40093786" vertical-offset="0" max-vertical-offset="853">
+                <state vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="855">
                   <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding />
                 </state>
@@ -124,6 +137,7 @@
   <component name="MavenProjectNavigator">
     <treeState />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="27" />
@@ -172,6 +186,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PR-CMS" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PR-CMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PR-CMS" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -484,11 +512,12 @@
       <workItem from="1411909185065" duration="11708000" />
       <workItem from="1411925232447" duration="706000" />
       <workItem from="1412933341733" duration="40000" />
+      <workItem from="1413615142911" duration="134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77751000" />
+    <option name="totallyTimeSpent" value="77885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
@@ -562,9 +591,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4824" max-vertical-offset="5364">
           <caret line="268" column="1" selection-start-line="268" selection-start-column="1" selection-end-line="268" selection-end-column="1" />
-          <folding>
-            <marker date="1411924473757" expanded="false" signature="1917:1942" placeholder="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1890">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googleMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testHTML.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-resume.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="2430">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4824" max-vertical-offset="5364">
+          <caret line="268" column="1" selection-start-line="268" selection-start-column="1" selection-end-line="268" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -604,9 +671,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2988" max-vertical-offset="3888">
           <caret line="273" column="74" selection-start-line="273" selection-start-column="74" selection-end-line="273" selection-end-column="74" />
-          <folding>
-            <marker date="1411924473757" expanded="false" signature="1917:1942" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -646,9 +711,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2239" max-vertical-offset="3240">
           <caret line="248" column="22" selection-start-line="248" selection-start-column="22" selection-end-line="248" selection-end-column="22" />
-          <folding>
-            <marker date="1411924473757" expanded="false" signature="1917:1942" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -702,9 +765,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="4302">
           <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-          <folding>
-            <marker date="1411924473757" expanded="false" signature="1917:1942" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product-resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="2430">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="293" max-vertical-offset="2682">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -853,15 +914,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2985" max-vertical-offset="3888">
           <caret line="268" column="1" selection-start-line="268" selection-start-column="1" selection-end-line="268" selection-end-column="1" />
-          <folding>
-            <marker date="1411924473757" expanded="false" signature="1917:1942" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testHTML.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.592592" vertical-offset="155" max-vertical-offset="1044">
+        <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="1044">
           <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding />
         </state>
@@ -869,7 +928,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/googleMap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40093786" vertical-offset="0" max-vertical-offset="853">
+        <state vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="855">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
@@ -877,8 +936,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40184757" vertical-offset="624" max-vertical-offset="1890">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state vertical-scroll-proportion="-4.888889" vertical-offset="624" max-vertical-offset="3294">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductResume_v1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29032257" vertical-offset="0" max-vertical-offset="868">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

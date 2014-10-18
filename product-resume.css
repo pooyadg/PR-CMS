@@ -49,7 +49,7 @@ body {
 .project{
     position:relative;
     overflow:hidden
-    min-width: 150px;
+min-width: 150px;
     border-radius: 10px;
     display: block;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
@@ -78,6 +78,7 @@ body {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 10px;
+    color: #ffffff;
 }
 
 .project-image{
@@ -127,4 +128,17 @@ body {
     border-bottom: none !important;
     border-top: none !important;
     box-shadow: none !important;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
